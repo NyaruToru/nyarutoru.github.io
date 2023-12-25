@@ -1,0 +1,39 @@
+site_name: NyaruToru
+site_url: https://github.com/NyaruToru/nyarutoru.github.io
+site_author: NyaruToru
+
+# Repository
+repo_name: NyaruToru/nyarutoru.github.io
+repo_url: https://github.com/NyaruToru/nyarutoru.github.io
+
+# Extensions
+markdown_extensions:
+  - toc:
+      permalink: true
+      
+# Configuration
+theme:
+  icon:
+    repo: fontawesome/brands/git-alt
+  name: material
+  favicon: images/icon.png
+  logo: images/icon.png
+  font:
+    text: Ysabeau Office
+
+  features:
+    - navigation.tabs
+    - navigation.footer
+
+# Theme
+  palette:
+      scheme: slate
+      primary: pink
+      accent: white
+
+nav:
+  - Getting started: 'index.md'
+  - Download links: 'downloads.md'
+
+# Copyright
+copyright: Copyright &copy; 2023 NyaruToru
